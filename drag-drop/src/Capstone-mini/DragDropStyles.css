@@ -1,0 +1,43 @@
+.drag-drop-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    padding: 10px;
+    margin: 10px 0;
+    background: lightblue;
+    border-radius: 5px;
+    cursor: grab;
+    text-align: center;
+}
+
+.list-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.list-item p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.list-item span {
+    font-size: 16px;
+    color: #333;
+}
